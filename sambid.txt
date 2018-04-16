@@ -1,5 +1,5 @@
 package info;
-
+import java.util.Scanner; 
 public class PC extends Produit {
 	private double CPU;
 	private int RAM;
