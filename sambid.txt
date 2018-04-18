@@ -13,4 +13,17 @@ public class PC extends Produit {
 		return "PC [cpu=" + CPU + ", ram=" + RAM + ", toString()=" + super.toString() + "]";
 	} 
 
+public Vend(String nom , String prenom , int age , double CA  , int NbU  ) {
+		super ( nom , prenom , age , CA , NbU);
+	}
+	public  double CalculeSurface() {
+		return (0.2*CA)+300;
+		
+	}
+	
+	
+	public String toString() {
+		return "le vendeur " +" " + super.toString()+" " +CalculeSurface() +"Dinars";
+
+	}
 }
